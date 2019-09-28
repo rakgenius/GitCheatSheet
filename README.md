@@ -39,6 +39,7 @@ If you want the repository to be named something else on your local computer,
 **Ignore all files in any directory named build** - `build/`
 
 **Ignore doc/notes.txt, but not doc/server/arch.txt** - `doc/*.txt`
+
 <br><br>
 
 **See the differences between the edits** - `git diff`
