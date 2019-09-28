@@ -59,7 +59,7 @@ If you want the repository to be named something else on your local computer,
 
 **To view the statistics of each commit change** - `git log -stat`
 
-**Amending a commit** - `git commit --amend`(This is as if the previous commit never occurred, and it won't show on the commit history.)
+**Amending a commit** - `git commit --amend`(Effectively, this is as if the previous commit never occured)
 
 **Unstaging a file** - `git reset HEAD <fileName>`
 
