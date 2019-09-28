@@ -38,6 +38,7 @@ If you want the repository to be named something else on your local computer,
 
 **Ignore doc/notes.txt, but not doc/server/arch.txt** - `doc/*.txt`
 <br><br>
+
 **See the differences between the edits** - `git diff`
 
 **Difference in files after the staging process** - `git diff --staged` 
@@ -58,9 +59,7 @@ If you want the repository to be named something else on your local computer,
 
 **To view the statistics of each commit change** - `git log -stat`
 
-**Amending a commit** - `git commit --amend`
-
-Effectively, it’s as if the previous commit never happened, and it won’t show up in your repository history.
+**Amending a commit** - `git commit --amend`(This is as if the previous commit never occurred, and it won't show on the commit history.)
 
 **Unstaging a file** - `git reset HEAD <fileName>`
 
