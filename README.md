@@ -1,6 +1,6 @@
 # GitCheatSheet
 
-** Git Insatllation On Linux OS ** - `sudo apt install git-all`
+**Git Installation On Linux OS** - `sudo apt install git-all`
 
 **Configuring Username And EMail Id:-**
 
@@ -26,9 +26,10 @@ If you want the repository to be named something else on your local computer,
 
 **Checking the status of the repository** - `git status`
 
+
 #### Adding a .gitignore file ignores certain file extensions for tracking
 
-**#ignore all .a files** - `*.a`
+**ignore all .a files** - `*.a`
 
 **but do track lib.a, even though you're ignoring .a files above** - `!lib.a`
 
@@ -37,6 +38,7 @@ If you want the repository to be named something else on your local computer,
 **ignore all files in any directory named build** - `build/`
 
 **ignore doc/notes.txt, but not doc/server/arch.txt** - `doc/*.txt`
+
 
 **See the differences between the edits** - `git diff`
 
