@@ -12,6 +12,7 @@
 
 **Checking Specific Configurations** - `git config user.name`
 
+<br><br>
 **Initializing A Git Repository** - `git init`
 
 **Add Files to the staging area** - `git add`
@@ -25,6 +26,7 @@ If you want the repository to be named something else on your local computer,
 `git clone https://github.com/userName/repoName repoNameOnYourSystem`
 
 **Checking the status of the repository** - `git status`
+
 <br><br>
 #### Adding a .gitignore file ignores certain file extensions for tracking
 
@@ -59,12 +61,13 @@ If you want the repository to be named something else on your local computer,
 
 **To view the statistics of each commit change** - `git log -stat`
 
-**Amending a commit** - `git commit --amend`(Effectively, this is as if the previous commit never occured)
+**Amending a commit** - `git commit --amend` (Effectively, this is as if the previous commit never occured)
 
 **Unstaging a file** - `git reset HEAD <fileName>`
 
 **Unmodifying a modified file** - `git checkout --<fileName>`
 
+<br><br>
 **Listing the name of your remote repository** - `git remote -v`
 
 **Adding a remote** - `git remote add <remoteName> <repositoryURL>`
@@ -80,3 +83,4 @@ If you want the repository to be named something else on your local computer,
 **Renaming a remote server** - `git remote rename <oldName> <newName>`
 
 **Removing a remote server** - `git remote remove <remoteName>`
+<br><br>
