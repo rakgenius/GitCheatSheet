@@ -1,6 +1,6 @@
 # GitCheatSheet
 
-**Git Installation On Linux OS** - `sudo apt install git-all`
+**Git Installation On Linux OS** - `sudo apt install git-all`</li>
 
 **Configuring Username And EMail Id:-**
 
@@ -25,21 +25,19 @@ If you want the repository to be named something else on your local computer,
 `git clone https://github.com/userName/repoName repoNameOnYourSystem`
 
 **Checking the status of the repository** - `git status`
-
-
+<br><br>
 #### Adding a .gitignore file ignores certain file extensions for tracking
 
-**ignore all .a files** - `*.a`
+**Ignore all .a files** - `*.a`
 
-**but do track lib.a, even though you're ignoring .a files above** - `!lib.a`
+**Track lib.a, even though you're ignoring .a files above** - `!lib.a`
 
-**only ignore the TODO file in the current directory, not subdir/TODO** - `/TODO`
+**Only ignore the TODO file in the current directory, not subdir/TODO** - `/TODO`
 
-**ignore all files in any directory named build** - `build/`
+**Ignore all files in any directory named build** - `build/`
 
-**ignore doc/notes.txt, but not doc/server/arch.txt** - `doc/*.txt`
-
-
+**Ignore doc/notes.txt, but not doc/server/arch.txt** - `doc/*.txt`
+<br><br>
 **See the differences between the edits** - `git diff`
 
 **Difference in files after the staging process** - `git diff --staged` 
@@ -82,4 +80,4 @@ Effectively, it’s as if the previous commit never happened, and it won’t sho
 
 **Renaming a remote server** - `git remote rename <oldName> <newName>`
 
-**Removing a remote server** - `git remote remove <remoteName>'
+**Removing a remote server** - `git remote remove <remoteName>`
