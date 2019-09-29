@@ -1,6 +1,7 @@
 # GitCheatSheet
 
-**Please adhere to the below mentioned format while opening pull requests, else your pull requests be marked as spam.**
+**Please adhere to the below mentioned format while opening pull requests, else your pull requests shall be marked as spam.**
+
 **Usage of command** - `Command on Git Bash` (Optional Description)
 
 **Git Installation On Linux OS** - `sudo apt install git-all`</li>
