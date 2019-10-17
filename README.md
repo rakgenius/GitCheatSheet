@@ -88,4 +88,18 @@ If you want the repository to be named something else on your local computer,
 **Renaming a remote server** - `git remote rename <oldName> <newName>`
 
 **Removing a remote server** - `git remote remove <remoteName>`
+	
 <br><br>
+**Creates new branch** - `git branch [branch_name]`
+
+**Switches to existing branch** - `git checkout [branch_name]`
+
+**Creates and switches new branch** - `git checkout -b [branch_name]]`
+
+**Delete fully merged branch** - `git branch -d [branch_name]`
+
+**Delete branch (even if not merged)** - `git branch -D [branch_name]`
+
+**Rename the current branch name to new branch name** - `git branch -m [new_branch_name]`
+
+**Merges other branch specified to current branch** - `git merge [branch_name]`
